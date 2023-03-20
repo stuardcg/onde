@@ -14,9 +14,9 @@ function App({ Component, pageProps }: AppProps) {
       {...pageProps}
       appearance={{ variables: { fontFamily: inter.style.fontFamily } }}
     >
-      <main className={`${inter.variable} font-sans`}>
+      <div className={`${inter.variable} font-sans`}>
         <Component {...pageProps} />
-      </main>
+      </div>
     </ClerkProvider>
   );
 }

@@ -16,6 +16,8 @@ importers:
     specifiers:
       '@babel/core': ^7.0.0
       '@clerk/nextjs': ^4.11.11
+      '@headlessui/react': ^1.7.13
+      '@heroicons/react': ^2.0.16
       '@types/node': ^17.0.12
       '@types/react': ^18.0.22
       '@types/react-dom': ^18.0.7
@@ -30,12 +32,16 @@ importers:
       tsconfig: workspace:*
       typescript: ^4.5.3
       ui: workspace:*
+      utils: workspace:*
     dependencies:
       '@clerk/nextjs': 4.11.11_ld2jel3hspngo3u5lti2kgl2sq
+      '@headlessui/react': 1.7.13_biqbaboplfbrettd7655fr4n2y
+      '@heroicons/react': 2.0.16_react@18.2.0
       next: 13.2.4_hrdbe576m4w26u2yfpqpvbxyky
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       ui: link:../../packages/ui
+      utils: link:../../packages/utils
     devDependencies:
       '@babel/core': 7.21.3
       '@types/node': 17.0.45
@@ -92,6 +98,12 @@ importers:
       react: 18.2.0
       tsconfig: link:../tsconfig
       typescript: 4.9.5
+
+  packages/utils:
+    specifiers:
+      tsconfig: workspace:*
+    devDependencies:
+      tsconfig: link:../tsconfig
 
 packages:
 
@@ -393,6 +405,26 @@ packages:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
+
+  /@headlessui/react/1.7.13_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-9n+EQKRtD9266xIHXdY5MfiXPDfYwl7zBM7KOx2Ae3Gdgxy8QML1FkCMjq6AsOf0l6N9uvI4HcFtuFlenaldKg==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: ^16 || ^17 || ^18
+      react-dom: ^16 || ^17 || ^18
+    dependencies:
+      client-only: 0.0.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
+
+  /@heroicons/react/2.0.16_react@18.2.0:
+    resolution: {integrity: sha512-x89rFxH3SRdYaA+JCXwfe+RkE1SFTo9GcOkZettHer71Y3T7V+ogKmfw5CjTazgS3d0ClJ7p1NA+SP7VQLQcLw==}
+    peerDependencies:
+      react: '>= 16'
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /@humanwhocodes/config-array/0.5.0:
     resolution: {integrity: sha512-FagtKFz74XrTl7y6HCzQpwDfXP0yhxe9lHLD1UZxjvZIcbyRz8zTFF/yYNfSfzU414eDwZ1SrO0Qvtyf+wFMQg==}

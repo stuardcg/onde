@@ -10,10 +10,13 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^4.11.11",
+    "@headlessui/react": "^1.7.13",
+    "@heroicons/react": "^2.0.16",
     "next": "^13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "ui": "workspace:*"
+    "ui": "workspace:*",
+    "utils": "workspace:*"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",

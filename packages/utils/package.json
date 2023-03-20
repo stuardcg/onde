@@ -1,0 +1,15 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "files": [
+    "classNames.ts"
+  ],
+  "devDependencies": {
+    "tsconfig": "workspace:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
