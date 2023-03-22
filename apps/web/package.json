@@ -12,7 +12,8 @@
     "@clerk/nextjs": "^4.11.11",
     "@headlessui/react": "^1.7.13",
     "@heroicons/react": "^2.0.16",
-    "next": "^13.1.1",
+    "eslint-config-next": "^13.2.4",
+    "next": "^13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "ui": "workspace:*",
@@ -27,6 +28,7 @@
     "eslint": "7.32.0",
     "eslint-config-custom": "workspace:*",
     "postcss": "^8.4.21",
+    "prettier": "^2.8.6",
     "tailwindcss": "^3.2.7",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.3"
